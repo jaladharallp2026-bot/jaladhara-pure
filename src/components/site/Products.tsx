@@ -50,7 +50,7 @@ export function Products() {
                   width={800}
                   height={600}
                   loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-115"
+                  className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.15]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-deep/70 via-deep/10 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
                 <div className="absolute bottom-4 left-5 right-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-500">

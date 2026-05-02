@@ -3,7 +3,7 @@ import logo from "@/assets/jaladhara-logo.png";
 
 export function Footer() {
   return (
-    <footer className="bg-deep text-deep-foreground/80 py-14">
+    <footer className="bg-deep text-deep-foreground/80 py-14 pb-28 md:pb-14">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
