@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Droplet, FlaskConical, Filter, Wrench, ShieldCheck, ArrowUpRight } from "lucide-react";
+import { Droplet, FlaskConical, Filter, Wrench, ShieldCheck, ArrowUpRight, Gauge, Plug } from "lucide-react";
 
 const services = [
   {
@@ -26,6 +26,16 @@ const services = [
     icon: ShieldCheck,
     title: "AMC Services",
     desc: "Annual maintenance contracts that keep your systems performing year after year.",
+  },
+  {
+    icon: Gauge,
+    title: "Automatic Water Level Controller",
+    desc: "Smart controllers that automate tank filling, prevent overflow and protect your pump.",
+  },
+  {
+    icon: Plug,
+    title: "Electronics & Plumbing Works",
+    desc: "Skilled electronics and plumbing services to support every water system installation.",
   },
 ];
 
