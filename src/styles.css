@@ -117,10 +117,10 @@
 }
 
 @layer utilities {
-  .bg-gradient-hero { background: var(--gradient-hero); }
-  .bg-gradient-deep { background: var(--gradient-deep); }
-  .bg-gradient-primary { background: var(--gradient-primary); }
-  .bg-gradient-card { background: var(--gradient-card); }
+  .bg-gradient-hero { background-image: var(--gradient-hero); }
+  .bg-gradient-deep { background-image: var(--gradient-deep); }
+  .bg-gradient-primary { background-image: var(--gradient-primary); }
+  .bg-gradient-card { background-image: var(--gradient-card); }
 
   .shadow-soft { box-shadow: var(--shadow-soft); }
   .shadow-elegant { box-shadow: var(--shadow-elegant); }
