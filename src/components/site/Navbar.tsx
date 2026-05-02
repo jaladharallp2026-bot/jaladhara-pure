@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Droplets, Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+import logo from "@/assets/jaladhara-logo.png";
 
 const links = [
   { href: "#services", label: "Services" },
@@ -32,14 +33,12 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 md:h-20 items-center justify-between">
-          <a href="#top" className="flex items-center gap-2.5 group">
-            <div className="relative h-10 w-10 rounded-xl bg-gradient-primary flex items-center justify-center shadow-soft">
-              <Droplets className="h-5 w-5 text-primary-foreground" />
-            </div>
-            <div className="leading-tight">
-              <div className="font-display font-bold text-foreground text-lg">Jaladhara</div>
-              <div className="text-[10px] font-medium tracking-widest text-muted-foreground uppercase">KEMFRE</div>
-            </div>
+          <a href="#top" className="flex items-center group">
+            <img
+              src={logo}
+              alt="Jaladhara KEMFRE Water Purification Technologies"
+              className="h-12 md:h-14 w-auto object-contain"
+            />
           </a>
 
           <nav className="hidden md:flex items-center gap-8">

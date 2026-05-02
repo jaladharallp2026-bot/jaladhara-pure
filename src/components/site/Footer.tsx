@@ -1,4 +1,5 @@
-import { Droplets, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
+import logo from "@/assets/jaladhara-logo.png";
 
 export function Footer() {
   return (
@@ -6,14 +7,12 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2.5">
-              <div className="h-10 w-10 rounded-xl bg-gradient-primary flex items-center justify-center">
-                <Droplets className="h-5 w-5 text-primary-foreground" />
-              </div>
-              <div className="leading-tight">
-                <div className="font-display font-bold text-white text-lg">Jaladhara</div>
-                <div className="text-[10px] font-medium tracking-widest uppercase text-deep-foreground/60">KEMFRE</div>
-              </div>
+            <div className="inline-block rounded-xl bg-white/95 p-2 shadow-soft">
+              <img
+                src={logo}
+                alt="Jaladhara KEMFRE Water Purification Technologies"
+                className="h-16 w-auto object-contain"
+              />
             </div>
             <p className="mt-4 text-sm max-w-sm leading-relaxed">
               Trusted water purification systems for homes, hospitals, laboratories and industries across Kerala.
