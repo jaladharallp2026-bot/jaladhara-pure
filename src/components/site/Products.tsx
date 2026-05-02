@@ -32,7 +32,7 @@ export function Products() {
           </p>
         </motion.div>
 
-        <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7">
           {products.map((p, i) => (
             <motion.article
               key={p.name}
@@ -40,18 +40,22 @@ export function Products() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              whileHover={{ y: -8 }}
-              className="group rounded-3xl overflow-hidden bg-card border border-border shadow-soft hover:shadow-card-hover transition-all"
+              whileHover={{ y: -10 }}
+              className="group relative rounded-3xl overflow-hidden bg-card border border-border shadow-soft hover:shadow-card-hover hover:border-primary/30 transition-all duration-500"
             >
-              <div className="aspect-[4/3] overflow-hidden bg-muted">
+              <div className="relative aspect-[4/3] overflow-hidden bg-muted">
                 <img
                   src={p.img}
                   alt={p.name}
                   width={800}
                   height={600}
                   loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.15]"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-deep/70 via-deep/10 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
+                <div className="absolute bottom-4 left-5 right-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
+                  <div className="text-xs uppercase tracking-widest text-primary-glow font-bold">Product</div>
+                </div>
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-bold text-foreground">{p.name}</h3>

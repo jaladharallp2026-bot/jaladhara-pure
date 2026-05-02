@@ -10,24 +10,27 @@ export function Hero() {
   const yImg = useTransform(scrollYProgress, [0, 1], [0, -60]);
 
   return (
-    <section id="top" ref={ref} className="relative pt-28 md:pt-32 pb-20 md:pb-28 overflow-hidden bg-gradient-hero">
-      {/* Floating droplets */}
-      <div aria-hidden className="absolute inset-0 pointer-events-none">
+    <section id="top" ref={ref} className="relative pt-28 md:pt-36 pb-24 md:pb-32 overflow-hidden bg-gradient-mesh">
+      {/* Soft drifting blobs */}
+      <div aria-hidden className="absolute inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute -top-32 -left-20 h-[420px] w-[420px] rounded-full bg-primary-glow/25 blur-3xl animate-blob" />
+        <div className="absolute top-40 -right-32 h-[480px] w-[480px] rounded-full bg-primary/20 blur-3xl animate-blob" style={{ animationDelay: "4s" }} />
+        <div className="absolute bottom-0 left-1/3 h-[360px] w-[360px] rounded-full bg-accent/40 blur-3xl animate-blob" style={{ animationDelay: "8s" }} />
+
         {[
-          { l: "10%", t: "30%", d: 0, s: 1 },
-          { l: "85%", t: "20%", d: 1.5, s: 0.7 },
-          { l: "70%", t: "70%", d: 2.5, s: 1.3 },
-          { l: "20%", t: "75%", d: 0.8, s: 0.9 },
-          { l: "50%", t: "15%", d: 3, s: 0.6 },
+          { l: "12%", t: "28%", d: 0, s: 0.8 },
+          { l: "82%", t: "18%", d: 1.5, s: 0.6 },
+          { l: "68%", t: "72%", d: 2.5, s: 1 },
+          { l: "22%", t: "78%", d: 0.8, s: 0.7 },
         ].map((d, i) => (
           <div
             key={i}
-            className="absolute rounded-full bg-primary-glow/30 blur-xl animate-float-drop"
+            className="absolute rounded-full bg-primary-glow/20 blur-xl animate-float-drop"
             style={{
               left: d.l,
               top: d.t,
-              width: `${80 * d.s}px`,
-              height: `${80 * d.s}px`,
+              width: `${70 * d.s}px`,
+              height: `${70 * d.s}px`,
               animationDelay: `${d.d}s`,
             }}
           />
@@ -50,7 +53,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight text-foreground text-balance"
+            className="mt-5 text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.02] tracking-tight text-foreground text-balance"
           >
             Pure Water Solutions for{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
