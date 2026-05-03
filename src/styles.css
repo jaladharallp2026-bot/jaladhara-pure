@@ -199,3 +199,86 @@
 }
 .animate-icon-pulse { animation: icon-pulse 2.4s ease-in-out infinite; }
 
+/* Gentle float for hero image */
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-14px); }
+}
+.animate-float-gentle { animation: float-gentle 5s ease-in-out infinite; }
+
+/* Shimmer sweep across hero image */
+@keyframes shimmer-sweep {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.animate-shimmer-sweep { animation: shimmer-sweep 4s linear infinite; }
+
+/* Click ripple for CTA button */
+@keyframes ripple-click {
+  0%   { transform: scale(0);  opacity: 0.6; }
+  100% { transform: scale(20); opacity: 0;   }
+}
+.animate-ripple-click { animation: ripple-click 0.7s ease-out forwards; }
+
+/* ── Purification Process section animations ── */
+
+/* Stage 1: Expanding water ripple rings */
+@keyframes water-ripple {
+  0%   { transform: scale(0.15); opacity: 0.95; }
+  100% { transform: scale(1.6);  opacity: 0; }
+}
+.animate-water-ripple { animation: water-ripple 2.2s ease-out infinite; }
+
+/* Stage 2: Sediment particles falling */
+@keyframes sediment-fall {
+  0%   { transform: translateY(-30px); opacity: 0; }
+  12%  { opacity: 0.85; }
+  82%  { opacity: 0.75; }
+  100% { transform: translateY(110px); opacity: 0; }
+}
+.animate-sediment-fall { animation: sediment-fall 1.9s ease-in infinite; }
+
+/* Stage 3: Carbon particle absorption */
+@keyframes particle-absorb {
+  0%   { transform: translate(0,  0) scale(1);   opacity: 0.85; }
+  100% { transform: translate(-14px, 6px) scale(0); opacity: 0; }
+}
+.animate-particle-absorb { animation: particle-absorb 1.7s ease-in-out infinite; }
+
+/* Stage 4: Membrane particle bounce-back */
+@keyframes particle-bounce {
+  0%   { transform: translateX(0);    opacity: 0.75; }
+  38%  { transform: translateX(18px); opacity: 1; }
+  65%  { transform: translateX(8px);  opacity: 0.7; }
+  100% { transform: translateX(0);    opacity: 0.5; }
+}
+.animate-particle-bounce { animation: particle-bounce 1.5s ease-in-out infinite; }
+
+/* Stage 4: Membrane glow pulse */
+@keyframes membrane-glow {
+  0%, 100% { opacity: 0.55; }
+  50%       { opacity: 1; }
+}
+.animate-membrane-glow { animation: membrane-glow 2.1s ease-in-out infinite; }
+
+/* Stage 4 & 5: Sparkle star twinkle */
+@keyframes sparkle-twinkle {
+  0%, 100% { opacity: 0; transform: scale(0.3) rotate(0deg); }
+  50%       { opacity: 1; transform: scale(1)   rotate(45deg); }
+}
+.animate-sparkle-twinkle { animation: sparkle-twinkle 1.9s ease-in-out infinite; }
+
+/* Stage 5: Water surface wave */
+@keyframes wave-flow {
+  0%, 100% { transform: translateX(0%)   scaleY(1); }
+  50%       { transform: translateX(-4%) scaleY(0.65); }
+}
+.animate-wave-flow { animation: wave-flow 2.6s ease-in-out infinite; }
+
+/* Stage 5: Bubble rising in bottle */
+@keyframes bubble-rise {
+  0%   { transform: translateY(0);    opacity: 0.8; }
+  100% { transform: translateY(-90px); opacity: 0; }
+}
+.animate-bubble-rise { animation: bubble-rise 2.8s ease-out infinite; }
+

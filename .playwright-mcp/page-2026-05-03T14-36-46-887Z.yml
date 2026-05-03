@@ -1,0 +1,360 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Jaladhara KEMFRE Water Purification Technologies" [ref=e6] [cursor=pointer]:
+        - /url: "#top"
+        - img "Jaladhara KEMFRE Water Purification Technologies" [ref=e7]
+      - navigation [ref=e8]:
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: "#services"
+        - link "Industrial" [ref=e10] [cursor=pointer]:
+          - /url: "#industrial"
+        - link "Products" [ref=e11] [cursor=pointer]:
+          - /url: "#products"
+        - link "Why Us" [ref=e12] [cursor=pointer]:
+          - /url: "#why"
+        - link "Contact" [ref=e13] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e14]:
+        - link "9633035611" [ref=e15] [cursor=pointer]:
+          - /url: tel:+919633035611
+          - img [ref=e16]
+          - text: "9633035611"
+        - link "Get a Quote" [ref=e18] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - img [ref=e24]
+          - text: Trusted across Kerala since years
+        - heading "Pure Water Solutions for Homes, Hospitals & Industries" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Advanced water purification systems with reliable service support across Kerala. From RO purifiers to demineralization plants — we engineer clean water.
+        - generic [ref=e29]:
+          - link "Get a Quote" [ref=e30] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Get a Quote
+            - img [ref=e31]
+          - link "Call Now" [ref=e33] [cursor=pointer]:
+            - /url: tel:+919633035611
+            - img [ref=e34]
+            - text: Call Now
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - img [ref=e38]
+            - strong [ref=e42]: "9633035611"
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - strong [ref=e48]: +91 9747817440
+      - generic [ref=e49]:
+        - img "Industrial RO water purification system with stainless steel membranes" [ref=e53]
+        - generic [ref=e55]:
+          - generic [ref=e56]: 40+
+          - generic [ref=e57]: Hospitals & Labs
+    - generic [ref=e59]:
+      - generic [ref=e61]:
+        - text: Our Network
+        - heading "Trusted by 40+ Hospitals & Laboratories" [level=2] [ref=e62]
+        - paragraph [ref=e63]: Healthcare institutions across Kerala rely on our purification systems for safe, consistent water.
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - img [ref=e68]
+          - generic [ref=e72]: Neethilab
+        - generic [ref=e73]:
+          - img [ref=e75]
+          - generic [ref=e79]: Sabeen Hospital, Muvattupuzha
+        - generic [ref=e80]:
+          - img [ref=e82]
+          - generic [ref=e86]: St. James Hospital, Chalakudy
+        - generic [ref=e87]:
+          - img [ref=e89]
+          - generic [ref=e93]: Carewell Hospital
+        - generic [ref=e94]:
+          - img [ref=e96]
+          - generic [ref=e100]: Neo Hospital, Pandikkad
+        - generic [ref=e101]:
+          - img [ref=e103]
+          - generic [ref=e107]: Janatha Lab
+        - generic [ref=e108]:
+          - img [ref=e110]
+          - generic [ref=e114]: Shankar Lab
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e121]: Sai Hospital, Palakkad
+        - generic [ref=e122]:
+          - img [ref=e124]
+          - generic [ref=e128]: Ganapathy Lab
+        - generic [ref=e129]:
+          - img [ref=e131]
+          - generic [ref=e135]: Jeevan Lab
+        - generic [ref=e136]:
+          - img [ref=e138]
+          - generic [ref=e142]: Neethilab
+        - generic [ref=e143]:
+          - img [ref=e145]
+          - generic [ref=e149]: Sabeen Hospital, Muvattupuzha
+        - generic [ref=e150]:
+          - img [ref=e152]
+          - generic [ref=e156]: St. James Hospital, Chalakudy
+        - generic [ref=e157]:
+          - img [ref=e159]
+          - generic [ref=e163]: Carewell Hospital
+        - generic [ref=e164]:
+          - img [ref=e166]
+          - generic [ref=e170]: Neo Hospital, Pandikkad
+        - generic [ref=e171]:
+          - img [ref=e173]
+          - generic [ref=e177]: Janatha Lab
+        - generic [ref=e178]:
+          - img [ref=e180]
+          - generic [ref=e184]: Shankar Lab
+        - generic [ref=e185]:
+          - img [ref=e187]
+          - generic [ref=e191]: Sai Hospital, Palakkad
+        - generic [ref=e192]:
+          - img [ref=e194]
+          - generic [ref=e198]: Ganapathy Lab
+        - generic [ref=e199]:
+          - img [ref=e201]
+          - generic [ref=e205]: Jeevan Lab
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - text: What we do
+        - heading "Complete water purification, from drop to deployment" [level=2] [ref=e209]
+      - generic [ref=e210]:
+        - generic [ref=e213]:
+          - img [ref=e215]
+          - heading "RO Water Purifiers" [level=3] [ref=e217]
+          - paragraph [ref=e218]: High-performance reverse osmosis systems for homes, offices and commercial spaces.
+          - generic [ref=e219]:
+            - text: Learn more
+            - img [ref=e220]
+        - generic [ref=e225]:
+          - img [ref=e227]
+          - heading "Demineralization Plant" [level=3] [ref=e229]
+          - paragraph [ref=e230]: DM plants engineered for laboratories, hospitals and industrial process water.
+          - generic [ref=e231]:
+            - text: Learn more
+            - img [ref=e232]
+        - generic [ref=e237]:
+          - img [ref=e239]
+          - heading "Water Treatment Solutions" [level=3] [ref=e241]
+          - paragraph [ref=e242]: End-to-end softening, filtration and treatment tailored to your source water.
+          - generic [ref=e243]:
+            - text: Learn more
+            - img [ref=e244]
+        - generic [ref=e249]:
+          - img [ref=e251]
+          - heading "Installation & Maintenance" [level=3] [ref=e253]
+          - paragraph [ref=e254]: Certified installation and prompt servicing across Kerala — no guesswork.
+          - generic [ref=e255]:
+            - text: Learn more
+            - img [ref=e256]
+        - generic [ref=e261]:
+          - img [ref=e263]
+          - heading "AMC Services" [level=3] [ref=e266]
+          - paragraph [ref=e267]: Annual maintenance contracts that keep your systems performing year after year.
+          - generic [ref=e268]:
+            - text: Learn more
+            - img [ref=e269]
+        - generic [ref=e274]:
+          - img [ref=e276]
+          - heading "Automatic Water Level Controller" [level=3] [ref=e279]
+          - paragraph [ref=e280]: Smart controllers that automate tank filling, prevent overflow and protect your pump.
+          - generic [ref=e281]:
+            - text: Learn more
+            - img [ref=e282]
+        - generic [ref=e287]:
+          - img [ref=e289]
+          - heading "Electronics & Plumbing Works" [level=3] [ref=e291]
+          - paragraph [ref=e292]: Skilled electronics and plumbing services to support every water system installation.
+          - generic [ref=e293]:
+            - text: Learn more
+            - img [ref=e294]
+    - generic [ref=e301]:
+      - generic [ref=e302]:
+        - img "Industrial water treatment plant with blue RO tanks and stainless steel piping" [ref=e303]
+        - generic [ref=e306]:
+          - generic [ref=e307]: Engineered
+          - generic [ref=e308]: Hospital & Industrial Grade
+      - generic [ref=e309]:
+        - generic [ref=e310]: Industrial Solutions
+        - heading "Advanced Industrial Water Treatment Systems" [level=2] [ref=e311]
+        - paragraph [ref=e312]: Engineered, installed and maintained by experts. Built for hospitals, laboratories, and manufacturing.
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - img [ref=e316]
+            - generic [ref=e318]:
+              - generic [ref=e319]: RO Plants
+              - generic [ref=e320]: Large-capacity reverse osmosis for industrial demand.
+          - generic [ref=e321]:
+            - img [ref=e323]
+            - generic [ref=e325]:
+              - generic [ref=e326]: Demineralization Plants
+              - generic [ref=e327]: Ultra-pure water for labs and process lines.
+          - generic [ref=e328]:
+            - img [ref=e330]
+            - generic [ref=e341]:
+              - generic [ref=e342]: Custom Setups
+              - generic [ref=e343]: Engineered to your site, source water and load.
+        - link "Request Site Visit" [ref=e344] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Request Site Visit
+          - img [ref=e345]
+    - generic [ref=e348]:
+      - generic [ref=e349]:
+        - generic [ref=e350]:
+          - text: For Home & Commercial
+          - heading "Purifiers built for everyday clean water" [level=2] [ref=e351]
+        - paragraph [ref=e352]: Reliable models for kitchens, clinics and offices — all backed by on-site service.
+      - generic [ref=e353]:
+        - article [ref=e354]:
+          - generic [ref=e355]:
+            - img "Kitchen RO Purifier" [ref=e356]
+            - generic [ref=e359]: Product
+          - generic [ref=e360]:
+            - heading "Kitchen RO Purifier" [level=3] [ref=e361]
+            - paragraph [ref=e362]: Compact, multi-stage RO with TDS controller
+            - link "Enquire" [ref=e363] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Enquire
+              - img [ref=e364]
+        - article [ref=e366]:
+          - generic [ref=e367]:
+            - img "Wall-Mount Commercial RO" [ref=e368]
+            - generic [ref=e371]: Product
+          - generic [ref=e372]:
+            - heading "Wall-Mount Commercial RO" [level=3] [ref=e373]
+            - paragraph [ref=e374]: Higher output for offices and clinics
+            - link "Enquire" [ref=e375] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Enquire
+              - img [ref=e376]
+        - article [ref=e378]:
+          - generic [ref=e379]:
+            - img "Lab-Grade DM Unit" [ref=e380]
+            - generic [ref=e383]: Product
+          - generic [ref=e384]:
+            - heading "Lab-Grade DM Unit" [level=3] [ref=e385]
+            - paragraph [ref=e386]: Ultra-pure water with digital monitoring
+            - link "Enquire" [ref=e387] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Enquire
+              - img [ref=e388]
+    - generic [ref=e391]:
+      - generic [ref=e392]:
+        - text: Why choose us
+        - heading "Reasons clients keep coming back" [level=2] [ref=e393]
+      - generic [ref=e394]:
+        - generic [ref=e395]:
+          - img [ref=e397]
+          - heading "40+ Clients" [level=3] [ref=e402]
+          - paragraph [ref=e403]: Hospitals, labs and homes across Kerala.
+        - generic [ref=e404]:
+          - img [ref=e406]
+          - heading "Fast Service" [level=3] [ref=e408]
+          - paragraph [ref=e409]: Quick response and on-site support.
+        - generic [ref=e410]:
+          - img [ref=e412]
+          - heading "Experienced Team" [level=3] [ref=e415]
+          - paragraph [ref=e416]: Years of water-treatment expertise.
+        - generic [ref=e417]:
+          - img [ref=e419]
+          - heading "Affordable Solutions" [level=3] [ref=e422]
+          - paragraph [ref=e423]: Honest pricing, real value.
+        - generic [ref=e424]:
+          - img [ref=e426]
+          - heading "Custom Installations" [level=3] [ref=e429]
+          - paragraph [ref=e430]: Designed for your space and load.
+    - generic [ref=e436]:
+      - generic [ref=e437]: Ready when you are
+      - heading "Need Clean Water Solutions?" [level=2] [ref=e438]
+      - paragraph [ref=e439]: Talk to our team — we'll recommend the right system, install it, and stand behind it.
+      - generic [ref=e440]:
+        - link "Call Now" [ref=e441] [cursor=pointer]:
+          - /url: tel:+919633035611
+          - img [ref=e442]
+          - text: Call Now
+        - link "WhatsApp" [ref=e444] [cursor=pointer]:
+          - /url: https://wa.me/919747817440
+          - img [ref=e445]
+          - text: WhatsApp
+        - link "Get Quote" [ref=e447] [cursor=pointer]:
+          - /url: "#contact"
+          - img [ref=e448]
+          - text: Get Quote
+    - generic [ref=e453]:
+      - generic [ref=e454]:
+        - text: Get in touch
+        - heading "Let's plan your water solution" [level=2] [ref=e455]
+        - paragraph [ref=e456]: Drop us your number — we'll call back with a tailored recommendation and quote.
+        - generic [ref=e457]:
+          - link "Call us 9633035611 · +91 9747817440" [ref=e458] [cursor=pointer]:
+            - /url: tel:+919633035611
+            - img [ref=e460]
+            - generic [ref=e462]:
+              - generic [ref=e463]: Call us
+              - generic [ref=e464]: 9633035611 · +91 9747817440
+          - generic [ref=e465]:
+            - img [ref=e467]
+            - generic [ref=e470]:
+              - generic [ref=e471]: Service area
+              - generic [ref=e472]: Across Kerala
+          - generic [ref=e473]:
+            - img [ref=e475]
+            - generic [ref=e478]:
+              - generic [ref=e479]: Service & support
+              - generic [ref=e480]: AMC · Installation · Maintenance
+      - generic [ref=e481]:
+        - generic [ref=e482]:
+          - img [ref=e483]
+          - heading "Quick Enquiry" [level=3] [ref=e486]
+        - generic [ref=e487]:
+          - generic [ref=e488]:
+            - text: Your Name
+            - textbox "John Doe" [ref=e489]
+          - generic [ref=e490]:
+            - text: Phone Number
+            - textbox "+91 ••••• •••••" [ref=e491]
+          - button "Request Callback" [ref=e492]
+          - paragraph [ref=e493]: We respect your privacy. No spam — just a friendly callback.
+  - contentinfo [ref=e494]:
+    - generic [ref=e495]:
+      - generic [ref=e496]:
+        - generic [ref=e497]:
+          - img "Jaladhara KEMFRE Water Purification Technologies" [ref=e499]
+          - paragraph [ref=e500]: Trusted water purification systems for homes, hospitals, laboratories and industries across Kerala.
+        - generic [ref=e501]:
+          - heading "Quick Links" [level=4] [ref=e502]
+          - list [ref=e503]:
+            - listitem [ref=e504]:
+              - link "Services" [ref=e505] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e506]:
+              - link "Industrial" [ref=e507] [cursor=pointer]:
+                - /url: "#industrial"
+            - listitem [ref=e508]:
+              - link "Products" [ref=e509] [cursor=pointer]:
+                - /url: "#products"
+            - listitem [ref=e510]:
+              - link "Why Us" [ref=e511] [cursor=pointer]:
+                - /url: "#why"
+            - listitem [ref=e512]:
+              - link "Contact" [ref=e513] [cursor=pointer]:
+                - /url: "#contact"
+        - generic [ref=e514]:
+          - heading "Contact" [level=4] [ref=e515]
+          - list [ref=e516]:
+            - listitem [ref=e517]:
+              - img [ref=e518]
+              - text: "9633035611"
+            - listitem [ref=e520]:
+              - img [ref=e521]
+              - text: +91 9747817440
+            - listitem [ref=e523]: Service across Kerala
+      - generic [ref=e524]:
+        - generic [ref=e525]: © 2026 Jaladhara (KEMFRE). All rights reserved.
+        - generic [ref=e526]: Pure Water · Trusted Service
+  - link "WhatsApp":
+    - /url: https://wa.me/919747817440
+    - img

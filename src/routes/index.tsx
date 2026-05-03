@@ -10,6 +10,7 @@ import { CTA } from "@/components/site/CTA";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { FloatingActions } from "@/components/site/FloatingActions";
+import { PurificationProcess } from "@/components/site/PurificationProcess";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -38,6 +39,7 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
+        <PurificationProcess />
         <Clients />
         <Services />
         <Industrial />
