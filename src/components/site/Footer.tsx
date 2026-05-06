@@ -6,13 +6,11 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
-            <div className="inline-block rounded-xl bg-white/95 p-2 shadow-soft">
-              <img
-                src="/logo.png"
-                alt="Jaladhara KEMFRE Water Purification Technologies"
-                className="w-44 h-auto object-contain"
-              />
-            </div>
+            <img
+              src="/logo.png"
+              alt="Jaladhara KEMFRE Water Purification Technologies"
+              className="w-44 h-auto object-contain"
+            />
             <p className="mt-4 text-sm max-w-sm leading-relaxed">
               Trusted water purification systems for homes, hospitals, laboratories and industries across Kerala.
             </p>
