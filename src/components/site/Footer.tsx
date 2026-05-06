@@ -40,6 +40,17 @@ export function Footer() {
         <div className="mt-10 pt-6 border-t border-white/10 text-xs text-deep-foreground/50 flex flex-col md:flex-row justify-between gap-3">
           <div>© {new Date().getFullYear()} Jaladhara (KEMFRE). All rights reserved.</div>
           <div>Pure Water · Trusted Service</div>
+          <div>
+            Developed by{" "}
+            <a
+              href="https://www.ticodetech.com"
+              target="_blank"
+              rel="noopener"
+              className="text-white/70 hover:text-white transition-colors underline underline-offset-2"
+            >
+              Ticode Technologies
+            </a>
+          </div>
         </div>
       </div>
     </footer>
