@@ -10,7 +10,7 @@ export function Footer() {
               <img
                 src="/logo.png"
                 alt="Jaladhara KEMFRE Water Purification Technologies"
-                className="h-16 w-auto object-contain"
+                className="w-44 h-auto object-contain"
               />
             </div>
             <p className="mt-4 text-sm max-w-sm leading-relaxed">
