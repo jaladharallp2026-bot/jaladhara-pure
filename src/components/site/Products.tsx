@@ -1,13 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import home from "@/assets/product-home-ro.jpg";
-import commercial from "@/assets/product-commercial.jpg";
-import lab from "@/assets/product-lab.jpg";
 
 const products = [
-  { img: home, name: "Kitchen RO Purifier", feature: "Compact, multi-stage RO with TDS controller" },
-  { img: commercial, name: "Wall-Mount Commercial RO", feature: "Higher output for offices and clinics" },
-  { img: lab, name: "Lab-Grade DM Unit", feature: "Ultra-pure water with digital monitoring" },
+  { img: "/images/product-1.png" },
+  { img: "/images/product-2.png" },
+  { img: "/images/product-3.png" },
 ];
 
 export function Products() {
@@ -35,7 +32,7 @@ export function Products() {
         <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-7">
           {products.map((p, i) => (
             <motion.article
-              key={p.name}
+              key={i}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
@@ -46,23 +43,18 @@ export function Products() {
               <div className="relative aspect-[4/3] overflow-hidden bg-muted">
                 <img
                   src={p.img}
-                  alt={p.name}
+                  alt={`Product ${i + 1}`}
                   width={800}
                   height={600}
                   loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.15]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-deep/70 via-deep/10 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
-                <div className="absolute bottom-4 left-5 right-5 translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
-                  <div className="text-xs uppercase tracking-widest text-primary-glow font-bold">Product</div>
-                </div>
               </div>
-              <div className="p-6">
-                <h3 className="text-lg font-bold text-foreground">{p.name}</h3>
-                <p className="mt-1.5 text-sm text-muted-foreground">{p.feature}</p>
+              <div className="p-5">
                 <a
                   href="#contact"
-                  className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:gap-2.5 transition-all"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:gap-2.5 transition-all"
                 >
                   Enquire <ArrowRight className="h-4 w-4" />
                 </a>
