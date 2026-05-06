@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "@/assets/jaladhara-logo.png";
 
 const links = [
   { href: "#services", label: "Services" },
@@ -35,9 +34,9 @@ export function Navbar() {
         <div className="flex h-16 md:h-20 items-center justify-between">
           <a href="#top" className="flex items-center group">
             <img
-              src={logo}
+              src="/logo.png"
               alt="Jaladhara KEMFRE Water Purification Technologies"
-              className="h-12 md:h-14 w-auto object-contain"
+              className="h-14 md:h-18 w-auto object-contain"
             />
           </a>
 

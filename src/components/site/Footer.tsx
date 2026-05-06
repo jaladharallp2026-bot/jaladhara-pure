@@ -1,5 +1,4 @@
 import { Phone } from "lucide-react";
-import logo from "@/assets/jaladhara-logo.png";
 
 export function Footer() {
   return (
@@ -9,7 +8,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="inline-block rounded-xl bg-white/95 p-2 shadow-soft">
               <img
-                src={logo}
+                src="/logo.png"
                 alt="Jaladhara KEMFRE Water Purification Technologies"
                 className="h-16 w-auto object-contain"
               />
