@@ -36,7 +36,7 @@ export function Navbar() {
             <img
               src="/logo.png"
               alt="Jaladhara KEMFRE Water Purification Technologies"
-              className="h-14 md:h-18 w-auto object-contain"
+              className="w-36 md:w-48 h-auto object-contain"
             />
           </a>
 
