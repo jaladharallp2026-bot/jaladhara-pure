@@ -3,8 +3,8 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const IMAGES = [
-  { src: "/popup-1.jpg", alt: "Jaladhara Watertech – Pure and Hygienic Water" },
-  { src: "/popup-2.jpg", alt: "D Mineralization Water Plant – Jaladhara" },
+  { src: "/popup-1.png", alt: "Jaladhara Watertech – Pure and Hygienic Water" },
+  { src: "/popup-2.png", alt: "D Mineralization Water Plant – Jaladhara" },
 ];
 
 export function PromoPopup() {
