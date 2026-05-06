@@ -11,7 +11,6 @@ import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { FloatingActions } from "@/components/site/FloatingActions";
 import { PurificationProcess } from "@/components/site/PurificationProcess";
-import { PromoPopup } from "@/components/site/PromoPopup";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -51,7 +50,6 @@ function Index() {
       </main>
       <Footer />
       <FloatingActions />
-      <PromoPopup />
     </div>
   );
 }
