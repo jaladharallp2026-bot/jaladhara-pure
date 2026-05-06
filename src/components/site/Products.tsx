@@ -40,7 +40,7 @@ export function Products() {
               whileHover={{ y: -10 }}
               className="group relative rounded-3xl overflow-hidden bg-card border border-border shadow-soft hover:shadow-card-hover hover:border-primary/30 transition-all duration-500"
             >
-              <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+              <div className="relative aspect-[3/4] overflow-hidden bg-muted">
                 <img
                   src={p.img}
                   alt={`Product ${i + 1}`}
