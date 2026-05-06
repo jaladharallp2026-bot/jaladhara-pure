@@ -7,14 +7,26 @@ const IMAGES = [
   { src: "/popup-2.png", alt: "D Mineralization Water Plant – Jaladhara" },
 ];
 
+const INTERVAL = 3500;
+
 export function PromoPopup() {
   const [open, setOpen] = useState(false);
   const [current, setCurrent] = useState(0);
+  const [paused, setPaused] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setOpen(true), 900);
     return () => clearTimeout(timer);
   }, []);
+
+  // Auto-rotate
+  useEffect(() => {
+    if (!open || paused) return;
+    const id = setInterval(() => {
+      setCurrent((c) => (c + 1) % IMAGES.length);
+    }, INTERVAL);
+    return () => clearInterval(id);
+  }, [open, paused]);
 
   const prev = () => setCurrent((c) => (c - 1 + IMAGES.length) % IMAGES.length);
   const next = () => setCurrent((c) => (c + 1) % IMAGES.length);
@@ -38,6 +50,8 @@ export function PromoPopup() {
             transition={{ type: "spring", stiffness: 280, damping: 24 }}
             className="relative w-full max-w-xl sm:max-w-2xl"
             onClick={(e) => e.stopPropagation()}
+            onMouseEnter={() => setPaused(true)}
+            onMouseLeave={() => setPaused(false)}
           >
             {/* Close button */}
             <button
