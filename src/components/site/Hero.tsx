@@ -1,7 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useState } from "react";
 import { Phone, ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
-import heroImg from "@/assets/hero-water-system.jpg";
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -169,7 +168,7 @@ export function Hero() {
             <div className="absolute -inset-6 bg-gradient-primary rounded-[2rem] blur-3xl opacity-20" />
             <div className="relative rounded-3xl overflow-hidden shadow-elegant ring-1 ring-border">
               <img
-                src={heroImg}
+                src="/images/hero.png"
                 alt="Industrial RO water purification system with stainless steel membranes"
                 width={1280}
                 height={1280}
