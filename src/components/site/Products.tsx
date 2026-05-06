@@ -53,7 +53,9 @@ export function Products() {
               </div>
               <div className="p-5">
                 <a
-                  href="#contact"
+                  href="https://wa.me/919747817440"
+                  target="_blank"
+                  rel="noopener"
                   className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:gap-2.5 transition-all"
                 >
                   Enquire <ArrowRight className="h-4 w-4" />
