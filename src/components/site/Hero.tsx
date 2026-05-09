@@ -34,7 +34,8 @@ function CountUp({ target, suffix }: { target: number; suffix: string }) {
 
   return (
     <span ref={ref}>
-      {count.toLocaleString()}{suffix}
+      {count.toLocaleString()}
+      {suffix}
     </span>
   );
 }
@@ -56,7 +57,11 @@ export function Hero() {
   };
 
   return (
-    <section id="top" ref={ref} className="relative pt-28 md:pt-36 pb-24 md:pb-32 overflow-hidden bg-gradient-mesh">
+    <section
+      id="top"
+      ref={ref}
+      className="relative pt-28 md:pt-36 pb-24 md:pb-32 overflow-hidden bg-gradient-mesh"
+    >
       {/* Noise texture overlay for depth */}
       <div
         aria-hidden
@@ -105,7 +110,10 @@ export function Hero() {
         ))}
       </div>
 
-      <motion.div style={{ y }} className="relative z-[2] mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+      <motion.div
+        style={{ y }}
+        className="relative z-[2] mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center"
+      >
         <div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -135,7 +143,8 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.25 }}
             className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed"
           >
-            Advanced water purification systems with reliable service support across Kerala. From RO purifiers to demineralization plants — we engineer clean water.
+            Advanced water purification systems with reliable service support across Kerala. From RO
+            purifiers to demineralization plants — we engineer clean water.
           </motion.p>
 
           <motion.div
@@ -184,11 +193,15 @@ export function Hero() {
           >
             <div className="flex items-center gap-2 text-muted-foreground">
               <ShieldCheck className="h-4 w-4 text-primary" />
-              <span><strong className="text-foreground">9633035611</strong></span>
+              <span>
+                <strong className="text-foreground">+91 9633035611</strong>
+              </span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <ShieldCheck className="h-4 w-4 text-primary" />
-              <span><strong className="text-foreground">+91 9747817440</strong></span>
+              <span>
+                <strong className="text-foreground">+91 9747817440</strong>
+              </span>
             </div>
           </motion.div>
         </div>
@@ -217,13 +230,13 @@ export function Hero() {
                 aria-hidden
                 className="absolute inset-0 pointer-events-none animate-shimmer-sweep"
                 style={{
-                  background: "linear-gradient(105deg, transparent 40%, oklch(1 0 0 / 0.15) 50%, transparent 60%)",
+                  background:
+                    "linear-gradient(105deg, transparent 40%, oklch(1 0 0 / 0.15) 50%, transparent 60%)",
                   backgroundSize: "200% 100%",
                 }}
               />
             </div>
           </div>
-
         </motion.div>
       </motion.div>
 

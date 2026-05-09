@@ -26,7 +26,9 @@ export function Contact() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6 }}
           >
-            <span className="text-xs font-bold tracking-widest text-primary uppercase">Get in touch</span>
+            <span className="text-xs font-bold tracking-widest text-primary uppercase">
+              Get in touch
+            </span>
             <h2 className="mt-3 text-3xl md:text-5xl font-bold text-foreground text-balance">
               Let's plan your water solution
             </h2>
@@ -41,7 +43,9 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-xs text-muted-foreground">Call us</div>
-                  <div className="font-semibold text-foreground">9633035611 · +91 9747817440</div>
+                  <div className="font-semibold text-foreground">
+                    +91 9633035611 · +91 9747817440
+                  </div>
                 </div>
               </a>
               <div className="flex items-start gap-4">
@@ -51,7 +55,8 @@ export function Contact() {
                 <div>
                   <div className="text-xs text-muted-foreground">Our address</div>
                   <div className="font-semibold text-foreground leading-relaxed">
-                    CV Junction, Near Masjid Salam<br />
+                    CV Junction, Near Masjid Salam
+                    <br />
                     Ponnani, Malappuram — 679577
                   </div>
                   <div className="text-xs text-muted-foreground mt-1">Service across Kerala</div>
@@ -63,7 +68,9 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-xs text-muted-foreground">Service & support</div>
-                  <div className="font-semibold text-foreground">AMC · Installation · Maintenance</div>
+                  <div className="font-semibold text-foreground">
+                    AMC · Installation · Maintenance
+                  </div>
                 </div>
               </div>
             </div>

@@ -58,7 +58,7 @@ export function Navbar() {
               className="flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary-glow transition-colors"
             >
               <Phone className="h-4 w-4" />
-              9633035611
+              +91 9633035611
             </a>
             <a
               href="#contact"

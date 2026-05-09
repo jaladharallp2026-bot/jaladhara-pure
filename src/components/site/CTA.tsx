@@ -7,7 +7,10 @@ export function CTA() {
       {/* Animated blobs */}
       <div aria-hidden className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 h-[520px] w-[820px] rounded-full bg-primary-glow/25 blur-3xl animate-blob" />
-        <div className="absolute -bottom-32 -left-20 h-[400px] w-[400px] rounded-full bg-primary/30 blur-3xl animate-blob" style={{ animationDelay: "5s" }} />
+        <div
+          className="absolute -bottom-32 -left-20 h-[400px] w-[400px] rounded-full bg-primary/30 blur-3xl animate-blob"
+          style={{ animationDelay: "5s" }}
+        />
       </div>
 
       {/* Light sweep */}
