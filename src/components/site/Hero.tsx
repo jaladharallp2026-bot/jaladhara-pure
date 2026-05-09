@@ -209,7 +209,7 @@ export function Hero() {
                 alt="Industrial RO water purification system with stainless steel membranes"
                 width={1280}
                 height={1280}
-                className="w-full h-full object-contain aspect-square"
+                className="w-full h-full object-cover aspect-square"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 via-transparent to-transparent" />
               {/* Shimmer sweep — light reflection on metallic surfaces */}
@@ -224,27 +224,6 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Floating stat card — bottom left */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.7 }}
-            className="absolute -left-4 sm:-left-8 bottom-8 glass rounded-2xl px-5 py-4 shadow-elegant"
-          >
-            <div className="text-3xl font-bold text-primary font-display">40+</div>
-            <div className="text-xs text-muted-foreground mt-0.5">Hospitals & Labs</div>
-          </motion.div>
-
-          {/* Floating stat card — top right */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.9 }}
-            className="absolute -right-4 sm:-right-8 top-8 glass rounded-2xl px-5 py-4 shadow-elegant"
-          >
-            <div className="text-3xl font-bold text-primary font-display">3000+</div>
-            <div className="text-xs text-muted-foreground mt-0.5">RO Customers</div>
-          </motion.div>
         </motion.div>
       </motion.div>
 
