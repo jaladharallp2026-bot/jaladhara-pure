@@ -209,7 +209,7 @@ export function Hero() {
                 alt="Industrial RO water purification system with stainless steel membranes"
                 width={1280}
                 height={1280}
-                className="w-full h-full object-cover aspect-square"
+                className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 via-transparent to-transparent" />
               {/* Shimmer sweep — light reflection on metallic surfaces */}
