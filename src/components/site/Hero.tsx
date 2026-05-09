@@ -1,6 +1,43 @@
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef, useState } from "react";
+import { motion, useScroll, useTransform, useInView } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
 import { Phone, ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
+
+const STATS = [
+  { target: 3000, suffix: "+", label: "RO Customers" },
+  { target: 40, suffix: "+", label: "Hospitals & Labs" },
+  { target: 13, suffix: "+", label: "Years Experience" },
+  { target: 100, suffix: "%", label: "Service Satisfaction" },
+];
+
+function CountUp({ target, suffix }: { target: number; suffix: string }) {
+  const [count, setCount] = useState(0);
+  const ref = useRef<HTMLSpanElement>(null);
+  const inView = useInView(ref, { once: true, margin: "-80px" });
+
+  useEffect(() => {
+    if (!inView) return;
+    let start = 0;
+    const duration = 1800;
+    const step = 16;
+    const increment = target / (duration / step);
+    const timer = setInterval(() => {
+      start += increment;
+      if (start >= target) {
+        setCount(target);
+        clearInterval(timer);
+      } else {
+        setCount(Math.floor(start));
+      }
+    }, step);
+    return () => clearInterval(timer);
+  }, [inView, target]);
+
+  return (
+    <span ref={ref}>
+      {count.toLocaleString()}{suffix}
+    </span>
+  );
+}
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -172,7 +209,7 @@ export function Hero() {
                 alt="Industrial RO water purification system with stainless steel membranes"
                 width={1280}
                 height={1280}
-                className="w-full h-full object-cover aspect-square"
+                className="w-full h-full object-contain aspect-square"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 via-transparent to-transparent" />
               {/* Shimmer sweep — light reflection on metallic surfaces */}
@@ -187,7 +224,7 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Floating stat card — anchored to outer motion.div, not the float wrapper */}
+          {/* Floating stat card — bottom left */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -197,7 +234,44 @@ export function Hero() {
             <div className="text-3xl font-bold text-primary font-display">40+</div>
             <div className="text-xs text-muted-foreground mt-0.5">Hospitals & Labs</div>
           </motion.div>
+
+          {/* Floating stat card — top right */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.9 }}
+            className="absolute -right-4 sm:-right-8 top-8 glass rounded-2xl px-5 py-4 shadow-elegant"
+          >
+            <div className="text-3xl font-bold text-primary font-display">3000+</div>
+            <div className="text-xs text-muted-foreground mt-0.5">RO Customers</div>
+          </motion.div>
         </motion.div>
+      </motion.div>
+
+      {/* Stats counting bar */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-60px" }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        className="relative z-[2] mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-16"
+      >
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-border/40 rounded-2xl overflow-hidden shadow-soft">
+          {STATS.map((s, i) => (
+            <div
+              key={s.label}
+              className="bg-card/80 backdrop-blur-sm px-6 py-7 text-center flex flex-col items-center gap-1"
+            >
+              <div className="text-3xl md:text-4xl font-bold text-primary">
+                <CountUp target={s.target} suffix={s.suffix} />
+              </div>
+              <div className="text-xs md:text-sm text-muted-foreground font-medium">{s.label}</div>
+              {i < STATS.length - 1 && (
+                <div className="hidden md:block absolute right-0 top-1/4 h-1/2 w-px bg-border" />
+              )}
+            </div>
+          ))}
+        </div>
       </motion.div>
     </section>
   );

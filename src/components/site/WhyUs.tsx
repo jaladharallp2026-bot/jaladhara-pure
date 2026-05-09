@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-import { Users, Zap, Award, BadgeIndianRupee, Settings2 } from "lucide-react";
+import { Users, Zap, Award, BadgeIndianRupee, Settings2, Droplets } from "lucide-react";
 
 const items = [
+  { icon: Droplets, title: "3000+ RO Customers", desc: "Trusted by thousands of happy families." },
   { icon: Users, title: "40+ Clients", desc: "Hospitals, labs and homes across Kerala." },
   { icon: Zap, title: "Fast Service", desc: "Quick response and on-site support." },
   { icon: Award, title: "Experienced Team", desc: "Years of water-treatment expertise." },
@@ -26,7 +27,7 @@ export function WhyUs() {
           </h2>
         </motion.div>
 
-        <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
+        <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-5">
           {items.map((it, i) => (
             <motion.div
               key={it.title}

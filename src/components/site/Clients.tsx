@@ -30,7 +30,9 @@ export function Clients() {
         >
           <span className="text-xs font-bold tracking-widest text-primary uppercase">Our Network</span>
           <h2 className="mt-3 text-3xl md:text-5xl font-bold text-foreground text-balance">
-            Trusted by 40+ Hospitals & Laboratories
+            Trusted by{" "}
+            <span className="bg-gradient-primary bg-clip-text text-transparent">3000+ RO Customers</span>
+            {" "}& 40+ Hospitals and Laboratories
           </h2>
           <p className="mt-4 text-muted-foreground">
             Healthcare institutions across Kerala rely on our purification systems for safe, consistent water.
