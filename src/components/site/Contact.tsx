@@ -44,13 +44,17 @@ export function Contact() {
                   <div className="font-semibold text-foreground">9633035611 · +91 9747817440</div>
                 </div>
               </a>
-              <div className="flex items-center gap-4">
-                <div className="h-12 w-12 rounded-2xl bg-primary/10 flex items-center justify-center">
+              <div className="flex items-start gap-4">
+                <div className="h-12 w-12 shrink-0 rounded-2xl bg-primary/10 flex items-center justify-center">
                   <MapPin className="h-5 w-5 text-primary" />
                 </div>
                 <div>
-                  <div className="text-xs text-muted-foreground">Service area</div>
-                  <div className="font-semibold text-foreground">Across Kerala</div>
+                  <div className="text-xs text-muted-foreground">Our address</div>
+                  <div className="font-semibold text-foreground leading-relaxed">
+                    CV Junction, Near Masjid Salam<br />
+                    Ponnani, Malappuram — 679577
+                  </div>
+                  <div className="text-xs text-muted-foreground mt-1">Service across Kerala</div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
